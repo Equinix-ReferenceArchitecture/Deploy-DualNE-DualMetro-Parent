@@ -25,7 +25,7 @@ output "secondary_device_random_name" {
 
 output "pass1" {
   value = module.Deploy-DualNE-DualMetro-Parent.pass1_child
-  sensitive = true
+  /*sensitive = true*/
 }
 
 
