@@ -28,7 +28,10 @@ output "pass1" {
   /*sensitive = true*/
 }
 
-
+output "pass2" {
+  value = module.Deploy-DualNE-DualMetro-Parent.pass2_child
+  /*sensitive = true*/
+}
 output "ssh_ip_vd_1" {
   value = module.Deploy-DualNE-DualMetro-Parent.ssh_ip_vd_1_child
 }
